@@ -15,6 +15,7 @@ The setups of the following two modules are currently being investigated in this
 - [Unity 2019.3.0f6](https://unity3d.com/get-unity/download/archive)
 - [NET 4.6 equivalent and C# 7.3](https://docs.unity3d.com/2019.3/Documentation/Manual/CSharpCompiler.html)
 - [SimpleJSON Unity script](https://github.com/HenrikPoulsen/SimpleJSON)
+- [NextMind Unity SDK] (https://www.next-mind.com/documentation/unity-sdk/download/)
 - Git
 
 
