@@ -4,9 +4,12 @@
 This project is a development extension from the [HoloCrane project](https://github.com/Plan-T42/HoloCrane), which is a mixed reality interface running on Microsoft HoloLens 1 device for the digital twin based crane opeation.
 The setups of the following two modules are currently being investigated in this project:
  
-1. The mixed reality application accessing the DT documents using [twinbase](https://github.com/twinbase/twinbase). The internal application parameters that should be included in the DT document are specified in the [description of terms](https://github.com/Plan-T42/HoloCrane-V1_setup-with-twinbase-and-NextMind/blob/master/Descriptions%20of%20terms.md) file. [SimpleJSON](https://github.com/HenrikPoulsen/SimpleJSON) script for Unity is utilized as a JSON parser and included in the Asset folder.  
+* The mixed reality application accessing the DT documents using [twinbase](https://github.com/twinbase/twinbase).  
+    * The internal application parameters that should be included in the DT document are specified in the [description of terms](https://github.com/Plan-T42/HoloCrane-V1_setup-with-twinbase-and-NextMind/blob/master/Descriptions%20of%20terms.md) file.
+    * [SimpleJSON](https://github.com/HenrikPoulsen/SimpleJSON) script for Unity is utilized as a JSON parser and included in the Asset folder.    
+    * The script access the URL of the [raw JSON file](https://dtw.dtp.fi/crane-ilmatar/index.json) from the [DT document for Ilmatar crane](https://dtw.dtp.fi/crane-ilmatar/)
 
-2. Integrating mind-controlled interaction into the mixed reality application using [NextMind DevKit](https://www.next-mind.com/documentation).
+* Integrating mind-controlled interaction into the mixed reality application using [NextMind DevKit](https://www.next-mind.com/documentation).
 
 
 
@@ -21,7 +24,8 @@ The project was developed and tested on Windows 10.
 
 ## Installation 
 
-Download the [Unity 2019.3.0f6](https://unity3d.com/get-unity/download/archive). [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) is suggested if you have mutiple versions of Unity installed.
+Download the [Unity 2019.3.0f6](https://unity3d.com/get-unity/download/archive). 
+If you have mutiple versions of Unity installed, [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html) is suggested.
 
 Clone source code.
 ```sh
@@ -43,13 +47,14 @@ You are all set!
 
 Pick the scene (either "DT_document.unity" or "NextMind.unity") by double click its name in the [Project Window](https://docs.unity3d.com/Manual/UsingTheEditor.html).
 
-When you are located in the selected scene (you can find the scene name in the [Hierarchy window](https://docs.unity3d.com/Manual/UsingTheEditor.html), press play, wait for the system to initialize, now depending on the scene:
+When you are located in the selected scene (you can find the scene name in the [Hierarchy window](https://docs.unity3d.com/Manual/UsingTheEditor.html), press play, and wait for the system to initialize. 
 
-### DT_document scene
+### DT document scene
 
-
+Click the "get Digital Twin Info" button, the content fetched f
+Digital Twin name, Description, Owner and Location are 
 
 ### NextMind scene 
 
-under development, expected release date, fall 2021.
+under development, expected release date: fall 2021.
 
