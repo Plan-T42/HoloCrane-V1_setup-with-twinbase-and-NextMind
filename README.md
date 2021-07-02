@@ -30,7 +30,7 @@ git clone https://github.com/Plan-T42/HoloCrane-V1_setup-with-twinbase-and-NextM
 
 Open the proejct folder with Unity 2019.3.0f6.
 
-Install the NextMind Unity SDK following the following steps, details see [tutorial](https://www.next-mind.com/documentation/unity-sdk/download/). 
+Install the NextMind Unity SDK following the steps below (details see [tutorial](https://www.next-mind.com/documentation/unity-sdk/download/)). 
 
 - Download the asset package [here](https://nextmind-sdk.s3-eu-west-1.amazonaws.com/unity/NextMindSDK.unitypackage).
 - Drag & drop NextMindSDK.unitypackage in the project view of Unity.
@@ -43,5 +43,13 @@ You are all set!
 
 Pick the scene (either "DT_document.unity" or "NextMind.unity") by double click its name in the [Project Window](https://docs.unity3d.com/Manual/UsingTheEditor.html).
 
-When you are located in the selected scene (you can find the scene name in the Hierarchy window), press play, wait for the system to initialize.
+When you are located in the selected scene (you can find the scene name in the [Hierarchy window](https://docs.unity3d.com/Manual/UsingTheEditor.html), press play, wait for the system to initialize, now depending on the scene:
+
+### DT_document scene
+
+
+
+### NextMind scene 
+
+under development, expected release date, fall 2021.
 
