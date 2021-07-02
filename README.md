@@ -7,7 +7,7 @@ The setups of the following two modules are currently being investigated in this
 * The mixed reality application accessing the DT documents using [twinbase](https://github.com/twinbase/twinbase).  
     * The internal application parameters that should be included in the DT document are specified in the [description of terms](https://github.com/Plan-T42/HoloCrane-V1_setup-with-twinbase-and-NextMind/blob/master/Descriptions%20of%20terms.md) file.
     * [SimpleJSON](https://github.com/HenrikPoulsen/SimpleJSON) script for Unity is utilized as a JSON parser and included in the Asset folder.    
-    * The script access the URL of the [raw JSON file](https://dtw.dtp.fi/crane-ilmatar/index.json) from the [DT document for Ilmatar crane](https://dtw.dtp.fi/crane-ilmatar/)
+    * The script access the URL of the [raw JSON file](https://dtw.dtp.fi/crane-ilmatar/index.json) from the [DT document for Ilmatar crane](https://dtw.dtp.fi/crane-ilmatar/).
 
 * Integrating mind-controlled interaction into the mixed reality application using [NextMind DevKit](https://www.next-mind.com/documentation).
 
@@ -38,7 +38,7 @@ Install the NextMind Unity SDK following the steps below (details see [tutorial]
 
 - Download the asset package [here](https://nextmind-sdk.s3-eu-west-1.amazonaws.com/unity/NextMindSDK.unitypackage).
 - Drag & drop NextMindSDK.unitypackage in the project view of Unity.
-- Or go to Assets / Import Package / Custom package..., then find NextMindSDK.unitypackage using the file picker
+- Or go to Assets / Import Package / Custom package..., then find NextMindSDK.unitypackage using the file picker.
 
 
 ## Run the demo
@@ -51,8 +51,7 @@ When you are located in the selected scene (you can find the scene name in the [
 
 ### DT document scene
 
-Click the "get Digital Twin Info" button, the content fetched f
-Digital Twin name, Description, Owner and Location are 
+Click the "get Digital Twin Info" button, the content fetched from the JSON URL will be selectively displayed in the canvas under "Digital Twin name", "Description", "Owner" and "Location". 
 
 ### NextMind scene 
 
