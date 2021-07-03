@@ -63,10 +63,10 @@ The following features are planned to be implemented in the next releases:
 
 - holographic visualization and control logic based on the parameters of the HoloCrane application that are read from DT document.
   - dashboard to display the basic digital twin information;
-  - operational area indicato; 
-  - spatial transformation offset based on given location of the registration marker and target holograms;
+  - operational area indicator; 
+  - spatial transformation offset based on given locations of the registration marker and target holograms;
   - various layout options determined by given design parameters' values.
 - A customed Unity C# package of accessing the DT document.
-- The registration marker as a QR-code with DI-id that meanwhile can be used to access the crane DT document URL.  
+- The registration marker as a QR-code with DT-id that meanwhile can be used to access the crane DT document URL.  
 - A complete demo of NextMind application.
 - Integration of both DT document access and NextMind control setups into the [HoloCrane V0 project](https://github.com/Plan-T42/HoloCrane-V0.git).
