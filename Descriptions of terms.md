@@ -53,7 +53,10 @@ The interal parameters of the mixed reality interface for crane operation, i.e t
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | design parameter | targetColor | The color of the target holograms, by default yellow  | optional | string |
 | design parameter | targetShape | The shape of the target holograms, by default sphere | optional | string |
-| design parameter | targetSize | The size of the target holograms in cm, by default 20cm diameters (sphere) | optional | float 
+| design parameter | targetSize | The size of the target holograms in cm, by default 20cm diameters (sphere) | optional | float |
+| design parameter | targetOpacity | The opacity of the target holograms in %, by default 70? | optional | float |
+| design parameter | operationalAreaDisplayStyle | The style of operational area holograms, either "fill" or "outline", by default "outline"? | optional | string |
+| design parameter | operationalAreaBorderThickness | The thickness of the borders of operational area holograms in cm, by default 4? | optional | float |
 | design parameter | dashboardPosition | The position of the dashboard center with regard to the user (HoloLens) | optional | array of three float |
 | design parameter | dashboardScale | The scale of the dashboard, by default 1 | optional | float |
 | design parameter | dashboardAngle| The angle between dashboard and the plane that is vertical to user's sight line, by default 0, i.e. vertical dashboard | optional | float |
