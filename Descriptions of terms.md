@@ -1,6 +1,6 @@
 # Descriptions of terms
 
-based on the corresponding file in twinbase project https://github.com/AaltoIIC/dt-document/blob/master/descriptions-of-terms.md
+based on the corresponding file in [AIIC/dt-document](https://github.com/AaltoIIC/dt-document/blob/master/descriptions-of-terms.md) project 
 
 modified specifically for the HoloLens mixed reality application for crane operation.
 
