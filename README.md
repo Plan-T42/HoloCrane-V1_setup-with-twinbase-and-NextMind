@@ -40,14 +40,33 @@ Install the NextMind Unity SDK following the steps below (details see [tutorial]
 - Drag & drop NextMindSDK.unitypackage in the project view of Unity.
 - Or go to Assets / Import Package / Custom package..., then find NextMindSDK.unitypackage using the file picker.
 
-## Run the demo application in Unity
+
+## Run the demo application
 
 You are all set!
 
-Select the scene (either "Crane_DTdoc_QR-code.unity") from the [Project Window](https://docs.unity3d.com/Manual/UsingTheEditor.html).
+Select the scene (either "DT_document.unity" or "NextMind.unity") from the [Project Window](https://docs.unity3d.com/Manual/UsingTheEditor.html).
 
 When you are located in the selected scene (you should find the scene name in the [Hierarchy window](https://docs.unity3d.com/Manual/UsingTheEditor.html), press play, and wait for the system to initialize. 
 
-## Deploy the demo application to Microsoft HoloLens 2
+### DT document scene
 
-Follow Microsoft documentation on ["Build and deploy to HoloLens"](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/build-and-deploy-to-hololens).
+Click the "get Digital Twin Info" button, the content from the JSON URL will be fetched and selectively displayed in the canvas under "Digital Twin name", "Description", "Owner" and "Location" headers. 
+
+### NextMind scene 
+
+This part is currently under development, the expected release date of which depends on when NextMind releases their AR demo. 
+
+## Next releases
+
+The following features are planned to be implemented in the next releases:
+
+- holographic visualization and control logic based on the parameters of the HoloCrane application that are read from DT document.
+  - dashboard to display the basic digital twin information;
+  - operational area indicator; 
+  - spatial transformation offset based on given locations of the registration marker and target holograms;
+  - various layout options determined by given design parameters' values.
+- A customed Unity C# package of accessing the DT document.
+- The registration marker as a QR-code with DT-id that meanwhile can be used to access the crane DT document URL.  
+- A complete demo of NextMind application.
+- Integration of both DT document access and NextMind control setups into the [HoloCrane V0 project](https://github.com/Plan-T42/HoloCrane-V0.git).
